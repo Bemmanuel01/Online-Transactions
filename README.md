@@ -23,7 +23,7 @@ The data set possess the following features and their description;
 
 # Model Training
 
-Given that the target value is a classification problem, we will utilize the following models:
+Given that the target value is a classification problem, the following models will be utilized:
 - Logistic Regression: This model predicts the probability that a given data point belongs to a specific category.
 - XGBClassifier: This refers to Gradient Boosted Decision Trees. In this algorithm, decision trees are created sequentially, with weights assigned to all independent variables, which are then used to make predictions.
 - SVC (Support Vector Classification): SVC aims to identify a hyperplane in an N-dimensional space that distinctly classifies data points, providing outputs based on the nearest elements.
