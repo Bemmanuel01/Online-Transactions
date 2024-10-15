@@ -20,3 +20,11 @@ The data set possess the following features and their description;
 - oldbalance (Dest): The recipient's account balance before the transaction.
 - newbalance (Dest): The recipient's account balance after the transaction.
 - isFraud: The target value to be predicted, indicating fraud status (0 for no fraud, 1 for fraud).
+
+# Model Training
+
+Given that the target value is a classification problem, we will utilize the following models:
+- Logistic Regression: This model predicts the probability that a given data point belongs to a specific category.
+- XGBClassifier: This refers to Gradient Boosted Decision Trees. In this algorithm, decision trees are created sequentially, with weights assigned to all independent variables, which are then used to make predictions.
+- SVC (Support Vector Classification): SVC aims to identify a hyperplane in an N-dimensional space that distinctly classifies data points, providing outputs based on the nearest elements.
+- Random Forest Classifier: This model constructs a collection of decision trees from a randomly selected subset of the training data. It then aggregates the votes from these decision trees to determine the final prediction.
